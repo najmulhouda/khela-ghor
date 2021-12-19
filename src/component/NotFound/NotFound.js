@@ -1,0 +1,15 @@
+import React from 'react';
+
+const NotFound = () => {
+    return (
+        <div className="mt-5 fs-1">
+            <h1>404</h1>
+            <br/>
+            <h3>Page Not Found</h3>
+            <img src="./Image/images.jpg" alt="" />
+            
+        </div>
+    );
+};
+
+export default NotFound;
